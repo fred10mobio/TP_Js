@@ -1,0 +1,85 @@
+body {
+}
+
+.container{
+    position: relative;
+
+}
+
+/* Debut Header */
+
+header{
+    position:absolute;
+    height:105px;
+    width:100%
+}
+
+#backg img{
+    position:absolute;
+    width:100%;
+    height:105px;
+}
+
+#logo{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#logo a {text-decoration:none;}
+#logo a:visited {color:white;}
+#logo a:link {color:white;}
+#logo a:hover {color:white;}
+#logo a:active {color:white;}
+
+#button{
+    position:absolute;
+    margin: 75px auto;
+    margin-left: 200px;
+}
+
+#button button{
+    margin-left:10px;
+    color:green !important;
+    width:100px;
+}
+
+#onze img{
+    position:absolute;
+    top:0;
+    right:0;
+    height:105px;
+    width:90px
+}
+/* Fin Header */
+
+
+.fancybox-button img{
+    width:400px;
+    height:300px;
+}
+
+#content{
+    position: absolute;
+    top:130px;
+    margin:0 65px;
+}
+
+
+/* Style Formulaire */
+* { font-family: Verdana; font-size: 96%; }
+label { width: 10em; float: left; }
+label.error { float: right; color: red; padding-left: .5em; width:250px; vertical-align: top; }
+p { clear: both; }
+.btn{ margin-left: 12em; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+#sujet{margin: 10px !important;}
+
+input.btn{
+    color:green !important;
+    width:100px;
+}
+
+/* Fin Formulaire */
+
+

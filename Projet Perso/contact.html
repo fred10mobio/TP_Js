@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Site Officiel de Frédéric Mobio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <link href="css/chosen.css" rel="stylesheet">
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/fancy.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="js/chosen.jquery.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jqueryform.js" type="text/javascript"></script>
+    
+
+    
+</head>
+
+<body class="home">
+
+    <div class="container">
+        <header>
+            <div id="backg">
+                <img src="img/bg3.jpg"></img>
+            </div>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" width="80px">Site Officiel De Frédéric Mobio</img></a> 
+            </div>
+            
+            <div id="button">
+                <a href="index.html"><button class="btn">Accueil</button></a>
+                <a href="galerie.html"><button class="btn ">Galerie</button></a>
+                <a href="biographie.html"><button class="btn">Biographie</button></a>
+                <a href="videos.html"><button class="btn">Videos</button></a>
+                <a href="contact.html"><button class="btn">Contact</button></a>
+            </div>
+            <div id="onze">
+                <img src="img/11.png"></img>
+            </div>            
+        </header>
+        
+        <div id="content">
+            <form class="cmxform" id="commentForm" method="get" action="">
+                <fieldset>
+                   <legend>Pages de contact fans</legend>
+                   <p>
+                        <label>Nom</label>
+                        <em>*</em><input  type="text" id="nom" name="user[name]" size="25" />
+                   </p>
+                  <p>
+                        <label>Prénoms</label>
+                        <em>*</em><input type="text" id="Prénom" name="user[surname]" size="25" />
+                   </p>
+                  <p>
+                        <div>
+                        <label>Pays</label>                      
+                        <em>*</em><select data-placeholder="Choisir un pays" class="chzn-select" size="25" tabindex="2">
+                            <option value=""></option> 
+                            <option value="ar">Argentina </option>
+                            <option value="be">Belgium </option>
+                            <option value="br">Brazil </option>
+                             <option value="bf">Burkina Faso </option>
+                            <option value="cm">Cameroon </option>
+                            <option value="ca">Canada </option>
+                            <option value="cn">China </option>
+                            <option value="fr">France </option>
+                            <option value="de">Germany </option>
+                            <option value="gh">Ghana </option>
+                            <option value="it">Italy </option>
+                            <option value="ci">Ivory Coast </option>
+                            <option value="jp">Japan </option>
+                            <option value="mo">Morocco</option>
+                            <option value="nl">Netherlands </option>
+                            <option value="pt">Portugal </option>
+                            <option value="sn">Senegal </option>
+                            <option value="za">South Africa </option>
+                            <option value="es">Spain </option>
+                            <option value="us">United States of America</option>
+                         </select>
+                         </div>
+                   </p>
+                   <p>
+                        <label>E-mail</label>
+                        <em>*</em><input type="text" id="email" name="user[email]" size="25" />
+                   </p>
+                  <p>
+                        <label>Sujet</label>
+                        <em></em><input type="text" id="sujet" name="user[subject]" size="25" />
+                   </p>
+                   <p>
+                        <label>Votre commentaire</label>
+                        <em>*</em><textarea id="com" name="user[comment]" cols="22"></textarea>
+                   </p>
+                   <p>
+                        <input class="btn" type="submit" value="Submit"/>
+                   </p>
+                 </fieldset>
+             </form>
+        </div>        
+        
+    </div>
+    
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
